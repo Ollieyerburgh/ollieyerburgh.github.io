@@ -1,0 +1,341 @@
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ollie Yerburgh - Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ollie Yerburgh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio1">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white" id="top">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">Ollie Yerburgh</h1>
+          <h2 class="masthead-subheading mb-0">Portfolio page</h2>
+          <a href="#about" class="btn btn-primary btn-xl rounded-pill mt-5">Find out more</a>
+        </div>
+    </header>
+
+
+    <section id="about" class="section">
+      <div class="container">
+          <div class="inner">
+              <h2 class="text-center text-secondary">About Me</h2>
+              <hr>
+            <div id="code">
+                 <div id="console">
+                  &gt; Ollie.origin<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "Cheltenham, UK"<br><br></span>
+                  &gt; Ollie.education<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "University of Sheffield"<br><br></span>
+                  &gt; Ollie.degree<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "Computer Science"<br><br></span>
+                  &gt; Ollie.expectedGraduation<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "May 2019"<br><br></span>
+                  &gt; Ollie.interests<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; ["code", "food", "skiing",   "bicycles", "snooker"]<br><br></span>
+    
+                  &gt; Ollie.resume<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="CVcurrent.docx">ollieyerburgh.pdf</a>"<br><br></span>
+                  &gt; Ollie.email<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:owardell-yerburgh1@sheffield.ac.uk">owardell-yerburgh1@sheffield.ac.uk</a>"<br><br></span>
+                  &gt; Ollie.programmingLanguages<br>
+                  <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank">[Java", "Ruby", "HTML", "CSS", "JavaScript", "MySQL]</a>"<br><br></span>
+                </div>
+    
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="portfolio1" class="portfolio1 section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="text-center text-secondary">Portfolio</h1>
+          <hr>
+        </div>
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item" style="overflow-x: hidden">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="150">
+            <img src="images/epigenesys.png" alt="">
+          </div>
+          <div class="portfolio-description"data-aos="fade-left" data-aos-delay="300">
+            <h1>Landing page</h1>
+            <p> 
+              A project to create a landing page for a product using Rails
+            </p>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#portfolio_descl">View Details</button>
+          </div>
+        </div>
+        <div class="modal fade" id="portfolio_descl">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">EpiGenesys</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <h6> Situation </h6>                  
+                  In a team of four, we had to first analyse the business context of a product and then create a landing page for the product based off our analysis, with features such as admin and user management and metrics
+                <br></br>
+                <h6> Technologies used </h6>
+                  Ruby on Rails framework, following Rubocop coding standard. HAML, SASS, Ruby and Coffee script linked to a PostgreSQL database. Capybara was used as our testing suit. We used git for version management and Capistrano for deployment.
+                <br> </br>
+                <h6> My contribution </h6>
+                  Although we were in a team of four, most of the programming was completed by myself, with 167/255 commits. I also wrote all 80 end to end tests for this project. Some key aspects included an admin page, which showed a variety of information using chartKick gem with Ahoy to track information such as location of page visitors. Two parts of the landing page that we tracked were how many times a user clicked on a particular feature or FAQ to reveal more information. This was shown in the admin page, so that they could see which features people are most interested in and which features users are least interested in. If it was found that many users were clicking on a particular FAQ, then it might indicate that the admin should include that information in the main landing page. 
+
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item" style="overflow-x: hidden">
+            <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="450">
+                <h1>Web app</h1>
+                <p> 
+                  A project to create a web application for a real client using Rails
+                </p>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#portfolio_desc2">View Details</button>
+            </div>
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="600">
+            <img src="images/heppsy.png" alt="">
+          </div>
+        </div>
+        <div class="modal fade" id="portfolio_desc2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Software Hut</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <h6>Situation</h6>
+                This project involved meeting with a real client to listen to their requirements. Based off their requirements, we created some user stories. We then created some basic wireframes which we showed to our client. We then created more detailed designs using Moqups. The system was designed to allow teachers to upload educational resources to a central database. They could either upload resources, such as PowerPoint decks, or activities, such as an open day. These could be searched through a form with a variety of filters.
+                <br></br>
+                <h6> Technologies used </h6>
+                Ruby on Rails framework, following Rubocop coding standard. HAML, SASS, Ruby and Coffee script linked to a PostgreSQL database. Capybara was used as our testing suit. We used git for version management and Capistrano for deployment. This project also gave me an introduction to Ajax, which I used to reload forms without reloading the page
+                <br></br>
+                <h6> Contribution </h6>
+                I took a leading role in this project, as I wanted to enhance my skills using web development frameworks, which I hadn’t used until this point. I was responsible for aspects such as generating and developing the models and controller methods, as well as all of the admin functionality such as user management, resource management and sending emails automatically. I also wrote 150 end to end tests and 60 unit tests. I received a 1.18 multiplier for this project as I contributed much more than the others.                
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio item 3 -->
+        <div class="portfolio-item" style="overflow-x: hidden">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="750">
+            <img src="images/item.png" alt="">
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="900">
+            <h1>Alexa Skill</h1>
+            <p> 
+              A cryptocurrency buddy, created with Node.js and Python
+            </p>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#portfolio_desc3">View Details</button>
+          </div>
+        </div>
+        <div class="modal fade" id="portfolio_desc3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Crypto Info</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <h6>Situation</h6>
+                This project was completed as my dissertation project. I wanted to base it on cryptocurrency as I was quite into cryptocurrency at the time. I had issues where it was annoying to find how much my portfolio was worth and how much it had increased, so I thought I could make a portfolio manager for cryptocurrency which could be controlled by voice. I found that other portfolio managers for Alexa were pretty terrible, so I decided to make a better one. I added functionality such as getting the price and price change of over 1000 cryptocurrencies, and functionality to predict the price of Bitcoin based off yesterday’s features.
+                <br></br>
+                <h6> Technologies used </h6>
+                The project was created using AWS offerings such as Lambda and DynamoDB. I used Node.js to develop the core skill, and Python to implement the machine learning. 
+                <br></br>
+                <h6> What I learnt </h6>
+                I chose Node.js as I knew that it would be useful to have experience using this language in the future. I learnt how to use async/await to handle asynchronous data. I also learnt how to use APIs such as to find the price of cryptocurrencies and to get historical data for machine learning. I’d never used machine learning before this project, and using it showed me how powerful of a tool it can be. The project was a success, with the skill being published to the Alexa skill store as can be found <a href="https://www.amazon.com/Ollie-Yerburgh-CryptoInfo/dp/B07PMW7LCM/ref=sr_1_1?keywords=cryptoinfo&qid=1558003341&s=gateway&sr=8-1" target="_blank">here</a>.
+
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" style="overflow-x: hidden">
+            <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="150">
+                <h1>Java Application</h1>
+                <p> 
+                  A project to create a dental practise booking and appointment management system in Java
+                </p>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#portfolio_desc4">View Details</button>
+            </div>
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="300">
+            <img src="images/hcsd.png" alt="">
+          </div>
+        </div>
+        <div class="modal fade" id="portfolio_desc4" style="overflow-x: hidden">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">HCSD</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <h6>Situation</h6>
+                The aim of this project was to create a booking system for a dental practise with two components; one for the dentist and one for the reception staff. The systems were linked so that the dentist could see their appointments for the day and receptionists could see how much to change patients. 
+                <br></br>
+                <h6> Technologies used </h6>
+                The project was developed using Java, linked to a MySQL database using a JDBC connector. We created UML diagrams to map the database before implementation began
+                <br></br>
+                <h6> Contribution </h6>
+                I mainly focussed on the back end of this project, creating the methods for different buttons which contained SQL statements. Due to my contribution, I received a 1.1 multiplier as I completed more work than other students.  
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" style="overflow-x: hidden">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="450">
+            <img src="images/tweetza.png" alt="">
+          </div>
+          <div class="portfolio-description"data-aos="fade-left" data-aos-delay="600">
+            <h1>Web App</h1>
+            <p> 
+              A project to create a web app for ordering pizzas through Twitter. Created using Sinatra
+            </p>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#portfolio_desc5">View Details</button>
+          </div>
+        </div>
+        <div class="modal fade" id="portfolio_desc5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Tweetza</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <h6>Situation</h6>
+                The aim of this project was to create a web application that let users place an order for a pizza using twitter. The site also had added functionality such as different menus and different branches based off a user’s postcode, and admin functionality such as user management
+                <br></br>
+                <h6> Technologies used </h6>
+                The project was completed using the Sinatra framework, using Ruby, HTML, CSS, JavaScript with an SQLite database
+                <br></br>
+                <h6> Contribution </h6>
+                I created a lot of the main functionality for the website including most of the admin dashboard, user management and menu management. I also wrote over 100 cucumber tests for this project.
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="text-center text-secondary">Contact me</h1>
+          <hr>
+        </div>
+        <form action="mailto:ollieyerburgh@hotmail.co.uk" enctype="text/plain" method="post" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name.." required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email.." required> 
+          <label for="message">Message:</label>
+          <textarea id="message" name="email" cols="10" rows="10" placeholder="Enter your message.." required>  </textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class=" fas fa-chevron-up"></i>
+      </div>
+      <p>&copy 2019 Ollie Yerburgh</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="javascript.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  </body>
+
+</html>
